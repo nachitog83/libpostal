@@ -63,8 +63,8 @@ AC_SUBST([LIBPOSTAL_LANG_CLASS_MODEL_LATEST_VERSION], [$LANG_CLASS_MODEL_LATEST_
 AC_CONFIG_FILES([Makefile
                  libpostal.pc
                  src/Makefile
-                 src/libpostal_data
-                 test/Makefile], [chmod +x src/libpostal_data])
+                 src/libpostal_data.in
+                 test/Makefile], [chmod +x src/libpostal_data.in])
 
 AC_CHECK_PROG([FOUND_SHUF], [shuf], [yes])
 AC_CHECK_PROG([FOUND_GSHUF], [gshuf], [yes])
